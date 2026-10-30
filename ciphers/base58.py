@@ -6,7 +6,6 @@ https://en.wikipedia.org/wiki/Base58
 
 BASE58_CHARSET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
 
-
 def base58_encode(data: bytes) -> str:
     """Encode bytes using the Bitcoin Base58 alphabet.
 
